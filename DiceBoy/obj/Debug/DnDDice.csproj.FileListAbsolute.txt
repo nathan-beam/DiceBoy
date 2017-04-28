@@ -1,0 +1,10 @@
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\bin\Debug\DnDDice.exe.config
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\bin\Debug\DnDDice.exe
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\bin\Debug\DnDDice.pdb
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DnDDice.csprojResolveAssemblyReference.cache
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DnDDice.Properties.Resources.resources
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DnDDice.csproj.GenerateResource.Cache
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DnDDice.exe
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DnDDice.pdb
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DiceBoy.View.LicenseForm.resources
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DiceBoy.MainForm.resources

@@ -1,0 +1,16 @@
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DiceBoy.View.LicenseForm.resources
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DiceBoy.MainForm.resources
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DiceBoy.csproj.GenerateResource.Cache
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\bin\Debug\DiceBoy.exe.config
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\bin\Debug\DiceBoy.exe
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\bin\Debug\DiceBoy.pdb
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DiceBoy.Resources.Resources.resources
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DiceBoy.Properties.Resources.resources
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DiceBoy.exe
+C:\Users\shrou\documents\visual studio 2015\Projects\DnDDice\DnDDice\obj\Debug\DiceBoy.pdb
+C:\Users\shrou\Documents\Visual Studio 2015\Projects\DnDDice\DiceBoy\bin\Debug\DiceBoy.exe.config
+C:\Users\shrou\Documents\Visual Studio 2015\Projects\DnDDice\DiceBoy\obj\Debug\DiceBoy.exe
+C:\Users\shrou\Documents\Visual Studio 2015\Projects\DnDDice\DiceBoy\obj\Debug\DiceBoy.pdb
+C:\Users\shrou\Source\Repos\DiceBoy\DiceBoy\bin\Debug\DiceBoy.exe.config
+C:\Users\shrou\Source\Repos\DiceBoy\DiceBoy\obj\Debug\DiceBoy.exe
+C:\Users\shrou\Source\Repos\DiceBoy\DiceBoy\obj\Debug\DiceBoy.pdb
