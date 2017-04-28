@@ -117,10 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </data>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIABfcgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEQAAABOQgGAAAAWKl/6wAAIABJ
@@ -613,8 +613,5 @@
         m2c0keFkHX8olu3UUCeaAdEAAIATO/gjM5rIkN7PLzMOXHSMQYbnPcmvCHQuckxuprlnanmZd1qkMQ75
         /6laOPoTwzD2AAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="HelpString" xml:space="preserve">
-    <value>Press the buttons on your keyboard to roll the dice. Press buttons in rapid succession to roll multiple dice in a row. Press a number key at any time to add a modifier.</value>
   </data>
 </root>
