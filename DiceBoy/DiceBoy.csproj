@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="Controller\DiceController.cs" />
     <Compile Include="Model\DiceRoll.cs" />
+    <Compile Include="Model\Modifier.cs" />
+    <Compile Include="Model\RollCollection.cs" />
     <Compile Include="Resources\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -128,9 +130,6 @@
     <None Include="Resources\d8.png" />
     <None Include="Resources\d6.png" />
     <None Include="Resources\d4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\HelpString.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

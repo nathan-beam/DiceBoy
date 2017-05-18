@@ -1,6 +1,7 @@
 ﻿using DiceBoy.Controller;
 using DiceBoy.Model;
 using System;
+using System.Drawing;
 using System.Resources;
 using System.Windows.Forms;
 using static DiceBoy.Util.Enum;
@@ -34,26 +35,30 @@ namespace DiceBoy
         /// <param name="e">The <see cref="PreviewKeyDownEventArgs"/> instance containing the event data.</param>
         private void MainForm_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
-            DiceRoll dr = null;
+            RollCollection dr = null;
             switch (e.KeyCode)
             {
                 case Keys.Q:
-                    dr = diceController.Roll(RollType.D20);
+                    dr = this.rollDice(DiceType.D20);
                     break;
                 case Keys.W:
-                    dr = diceController.Roll(RollType.D12);
+                    dr = this.rollDice(DiceType.D12);
                     break;
                 case Keys.E:
-                    dr = diceController.Roll(RollType.D10);
+                    dr = this.rollDice(DiceType.D10);
                     break;
                 case Keys.R:
-                    dr = diceController.Roll(RollType.D8);
+                    dr = this.rollDice(DiceType.D8);
                     break;
                 case Keys.T:
-                    dr = diceController.Roll(RollType.D6);
+                    dr = this.rollDice(DiceType.D6);
                     break;
                 case Keys.Y:
-                    dr = diceController.Roll(RollType.D4);
+                    dr = this.rollDice(DiceType.D4);
+                    break;
+                case Keys.Space:
+                    dr = diceController.Lucky();
+                    this.setLabelColor(Color.DarkGreen);
                     break;
                 default:
                     if (e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9)
@@ -89,6 +94,19 @@ namespace DiceBoy
         {
             var lf = new View.LicenseForm();
             lf.Show();
+        }
+
+        private RollCollection rollDice(DiceType diceType)
+        {
+            this.setLabelColor(Color.DarkGray);
+            return diceController.Roll(DiceType.D4);
+
+        }
+
+        private void setLabelColor(Color color)
+        {
+            this.sumLabel.ForeColor = color;
+            this.resultLabel.ForeColor = color;
         }
     }
 }

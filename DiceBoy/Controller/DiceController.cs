@@ -17,7 +17,7 @@ namespace DiceBoy.Controller
         /// <summary>
         /// The most recent series of dice rolls
         /// </summary>
-        private DiceRoll roll;
+        private RollCollection roll;
 
 
         /// <summary>
@@ -31,7 +31,7 @@ namespace DiceBoy.Controller
         public DiceController()
         {
             this.timer = new Stopwatch();
-            this.roll = new DiceRoll();
+            this.roll = new RollCollection();
         }
 
         /// <summary>
@@ -39,14 +39,20 @@ namespace DiceBoy.Controller
         /// </summary>
         /// <param name="dieType">Type of the die to roll.</param>
         /// <returns>The most recent DiceRoll collection</returns>
-        public DiceRoll Roll(RollType dieType)
+        public RollCollection Roll(DiceType diceType)
         {
             if (this.timer.ElapsedMilliseconds > 500)
             {
-                this.roll = new DiceRoll();
+                this.roll = new RollCollection();
             }
-            this.roll.Roll(dieType);
+            this.roll.Roll(diceType);
             this.timer.Restart();
+            return this.roll;
+        }
+
+        public RollCollection Lucky()
+        {
+            this.roll.Lucky();
             return this.roll;
         }
 
@@ -55,7 +61,7 @@ namespace DiceBoy.Controller
         /// </summary>
         /// <param name="modifier">The modifier to add to the roll total (I.e. strength, dex, wis).</param>
         /// <returns>The most recent DiceRoll collection</returns>
-        public DiceRoll AddModifier(int modifier)
+        public RollCollection AddModifier(int modifier)
         {
             this.roll.AddModifier(modifier);
             this.timer.Restart();

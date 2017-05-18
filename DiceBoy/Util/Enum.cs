@@ -8,7 +8,7 @@
         /// <summary>
         /// Enum of each of the 6 most common tabletop die
         /// </summary>
-        public enum RollType { D20, D12, D10, D8, D6, D4 }
+        public enum DiceType { D20 = 20, D12 = 12, D10 = 10, D8 = 8, D6 = 6, D4 = 4 }
 
     }
 

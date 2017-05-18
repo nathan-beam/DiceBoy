@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HelpString" xml:space="preserve">
-    <value>Press the buttons on your keyboard to roll the dice. Press buttons in rapid succession to roll multiple dice in a row. Press a number key at any time to add a modifier.</value>
+    <value>Press the buttons on your keyboard to roll the dice. Press buttons in rapid succession to roll multiple dice in a row. Press a number key at any time to add a modifier. Press space to reroll all natural 1s</value>
   </data>
   <data name="LicenseString" xml:space="preserve">
     <value>Copyright 2017 Nathan Beam

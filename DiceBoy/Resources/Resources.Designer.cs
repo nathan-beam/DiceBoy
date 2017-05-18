@@ -61,7 +61,7 @@ namespace DiceBoy.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Press the buttons on your keyboard to roll the dice. Press buttons in rapid succession to roll multiple dice in a row. Press a number key at any time to add a modifier..
+        ///   Looks up a localized string similar to Press the buttons on your keyboard to roll the dice. Press buttons in rapid succession to roll multiple dice in a row. Press a number key at any time to add a modifier. Press space to reroll all natural 1s.
         /// </summary>
         internal static string HelpString {
             get {
