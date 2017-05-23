@@ -99,8 +99,7 @@ namespace DiceBoy
         private RollCollection rollDice(DiceType diceType)
         {
             this.setLabelColor(Color.DarkGray);
-            return diceController.Roll(DiceType.D4);
-
+            return diceController.Roll(diceType);
         }
 
         private void setLabelColor(Color color)
