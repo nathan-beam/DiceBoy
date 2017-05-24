@@ -60,6 +60,10 @@ namespace DiceBoy
                     dr = diceController.Lucky();
                     this.setLabelColor(Color.DarkGreen);
                     break;
+                case Keys.Back:
+                case Keys.Delete:
+                    this.clearLabels();
+                    break;
                 default:
                     if (e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9)
                     {
@@ -73,6 +77,8 @@ namespace DiceBoy
                 this.sumLabel.Text = dr.ToString();
             }
         }
+
+
 
         /// <summary>
         /// Handles the Click event of the helpToolStripMenuItem control and displays the help.
@@ -106,6 +112,12 @@ namespace DiceBoy
         {
             this.sumLabel.ForeColor = color;
             this.resultLabel.ForeColor = color;
+        }
+
+        private void clearLabels()
+        {
+            this.resultLabel.Text = string.Empty;
+            this.sumLabel.Text = string.Empty;
         }
     }
 }
