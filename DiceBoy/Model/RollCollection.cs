@@ -56,6 +56,10 @@ namespace DiceBoy.Model
             {
                 sum += roll.Value;
             }
+            foreach (var mod in this.modifiers)
+            {
+                sum += mod.Value;
+            }
             return sum.ToString();
         }
 
